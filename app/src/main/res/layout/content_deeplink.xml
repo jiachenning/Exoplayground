@@ -8,4 +8,11 @@
     tools:context="ninjachen.rocks.exoplayground.DeepLinkActivity"
     tools:showIn="@layout/activity_deeplink">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="TextView"
+        android:layout_gravity="center"
+        />
 </android.support.constraint.ConstraintLayout>

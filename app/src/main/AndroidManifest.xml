@@ -20,23 +20,23 @@
             android:name=".DeepLinkActivity"
             android:label="@string/title_activity_deeplink"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter android:label="string/filter_view_http_gizmos">
+            <intent-filter android:label="@string/i_am_zydsb">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
                 <data android:scheme="http"
-                    android:host="www.example.com"
-                    android:pathPrefix="/gizmos" />
+                    android:host="www.zydsb.com"
+                    />
                 <!-- note that the leading "/" is required for pathPrefix-->
             </intent-filter>
-            <intent-filter android:label="string/filter_view_example_gizmos">
+            <intent-filter android:label="@string/i_am_zydsb">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <!-- Accepts URIs that begin with "example://gizmos” -->
-                <data android:scheme="example"
-                    android:host="gizmos" />
+                <data android:scheme="zy"
+                    android:host="dsb" />
             </intent-filter>
         </activity>
     </application>

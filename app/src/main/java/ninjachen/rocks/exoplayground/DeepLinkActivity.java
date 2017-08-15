@@ -8,6 +8,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.TextView;
 
 public class DeepLinkActivity extends AppCompatActivity {
 
@@ -30,7 +31,8 @@ public class DeepLinkActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String action = intent.getAction();
         Uri data = intent.getData();
-
+        TextView tv = findViewById(R.id.textView);
+        tv.setText("DeepLink is " + data.toString());
     }
 
 }

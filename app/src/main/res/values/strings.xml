@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Exoplayground</string>
     <string name="title_activity_deeplink">DeepLinkActivity</string>
+    <string name="i_am_zydsb">我是猪鱼大傻逼</string>
 </resources>
